@@ -1,6 +1,7 @@
 import numpy as np
 import Regression
 
+'''https://maxhalford.github.io/blog/bayesian-linear-regression/'''
 class BayesianRegressionModel(Regression.RegressionModel):
     def __init__(self, alpha:float=1., beta:float=1.):
         self.alpha = alpha
